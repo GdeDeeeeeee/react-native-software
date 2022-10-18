@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Button, Text, View } from "react-native"
+import { Button, Text, TouchableOpacity, View } from "react-native"
 
 export const ContadorScreen=()=>{
     const [count,setCount]=useState(10)
@@ -19,10 +19,21 @@ export const ContadorScreen=()=>{
                 Contador: {count}
 
             </Text>
-            <Button onPress={handleButton}
+            {/* <Button onPress={handleButton}
                     title="MAS"
                     color="#841584"
-            />
+            />*/}
+            <TouchableOpacity onPress={handleButton}>
+                <View style={{
+                    backgroundColor:'red',
+                    borderRadius:100
+
+                }}>
+                    <Text>+1</Text>
+
+                </View>
+
+            </TouchableOpacity>
         </View>
 
     )
