@@ -9,7 +9,7 @@ export const Saludo=()=>{
         }}>
             <Text style={{
                 color:'white',
-                fontSize:20
+                fontSize:50
             }}>
                 Hola soy joel willy quispe ttito
             </Text>
