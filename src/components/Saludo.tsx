@@ -9,9 +9,10 @@ export const Saludo=()=>{
         }}>
             <Text style={{
                 color:'white',
-                fontSize:50
+                fontSize:50,
+                textAlign:'right'
             }}>
-                Hola soy joel willy quispe ttito
+                Hola soy joel willy
             </Text>
         </View>
     )
