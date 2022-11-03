@@ -1,10 +1,13 @@
 import { useState } from "react"
 import { Button, Text, TouchableOpacity, View,StyleSheet } from "react-native"
+import { SafeAreaView } from "react-native-safe-area-context"
 // import { styles } from "../../App"
 
 export const PositionScreen=()=>{
 
     return (
+        <SafeAreaView style={{flex:1}} >
+
         <View style={styles.container}>
             <View style={styles.purpleBox}>
 
@@ -13,6 +16,8 @@ export const PositionScreen=()=>{
             <View style={styles.greenBox}></View>
 
         </View>
+        </SafeAreaView>
+
     )
 }
 

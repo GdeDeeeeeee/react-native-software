@@ -1,9 +1,11 @@
 import { useState } from "react"
 import { Button, Text, TouchableOpacity, View,StyleSheet } from "react-native"
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 
 export const FlexScreen=()=>{
     return(
+        <SafeAreaView style={{flex:1}} >
         <View style={styles.container}>
             <Text style={styles.box1}>
                 box 1
@@ -15,6 +17,8 @@ export const FlexScreen=()=>{
                 box 3
             </Text>
         </View>
+        </SafeAreaView>
+        
     )
 }
 
@@ -24,12 +28,12 @@ const styles=StyleSheet.create({
         backgroundColor:'green',
         // justifyContent:'flex-end'
         //task_2_image1
-        flexDirection:'row',
-        alignItems:'flex-end',
-        justifyContent:'flex-end'
-        //task_2_image2
-        // flexDirection:'column',
+        // flexDirection:'row',
         // alignItems:'flex-end',
+        // justifyContent:'flex-end'
+        // task_2_image2
+        flexDirection:'column',
+        alignItems:'flex-end',
     },
     box1:{
         borderWidth:2,
