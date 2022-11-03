@@ -67,15 +67,15 @@ const styles = StyleSheet.create({
     },
     fabLocationBR:{
         position:'absolute',
-        bottom:25,
-        right:25
-
+        // bottom:25,
+        right:25,
+        top:20
     },
     fabLocationBL:{
         position:'absolute',
-        bottom:25,
-        left:25
-
+        // bottom:25,
+        left:25,
+        top:20
     }
     
   });

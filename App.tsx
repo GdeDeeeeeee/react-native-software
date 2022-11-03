@@ -3,14 +3,15 @@ import { StyleSheet, Text, View } from 'react-native';
 import { Saludo } from './src/components/Saludo';
 import { ContadorScreen } from './src/screens/ContadorScreen';
 import { HelloWorld } from './src/screens/HelloWorld';
+import { PositionScreen } from './src/screens/PositionScreen';
 
 export default function App() {
   return (
     // <View style={styles.container}>
     // <View >
-    <ContadorScreen/>
+    // <ContadorScreen/>
         // {/* <Saludo/> */}
-
+        <PositionScreen/>
     // </View>
     // <Saludo/>
   );
