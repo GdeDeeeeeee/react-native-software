@@ -2,8 +2,10 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { Saludo } from './src/components/Saludo';
 import { ContadorScreen } from './src/screens/ContadorScreen';
+import { FlexScreen } from './src/screens/FlexScreen';
 import { HelloWorld } from './src/screens/HelloWorld';
 import { PositionScreen } from './src/screens/PositionScreen';
+import { TaskScreen } from './src/screens/TaskScreen';
 
 export default function App() {
   return (
@@ -11,8 +13,10 @@ export default function App() {
     // <View >
     // <ContadorScreen/>
         // {/* <Saludo/> */}
-        <PositionScreen/>
-    // </View>
+        // <PositionScreen/>
+        // <FlexScreen/>
+        <TaskScreen/>
+        // </View>
     // <Saludo/>
   );
 }
