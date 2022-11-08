@@ -25,8 +25,8 @@ export const styles = StyleSheet.create({
     fila: {
         flexDirection: 'row',
         justifyContent: 'center',
-        marginBottom: 50,
-        // paddingHorizontal: 10
+        marginBottom: 18,
+        paddingHorizontal: 10
     },
     boton: {
         height: 80,

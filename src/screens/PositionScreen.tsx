@@ -8,14 +8,14 @@ export const PositionScreen=()=>{
     return (
         <SafeAreaView style={{flex:1}} >
 
-        <View style={styles.container}>
-            <View style={styles.purpleBox}>
+            <View style={styles.container}>
+                <View style={styles.purpleBox}>
+
+                </View>
+                <View style={styles.orangeBox}></View>
+                <View style={styles.greenBox}></View>
 
             </View>
-            <View style={styles.orangeBox}></View>
-            <View style={styles.greenBox}></View>
-
-        </View>
         </SafeAreaView>
 
     )
