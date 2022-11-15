@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 export const FlexScreen=()=>{
     return(
-        <SafeAreaView style={{flex:1}} >
+        // <SafeAreaView style={{flex:1}} >
         <View style={styles.container}>
             <Text style={styles.box1}>
                 box 1
@@ -17,7 +17,7 @@ export const FlexScreen=()=>{
                 box 3
             </Text>
         </View>
-        </SafeAreaView>
+        // </SafeAreaView>
         
     )
 }
@@ -25,8 +25,8 @@ export const FlexScreen=()=>{
 const styles=StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'green',
-        // justifyContent:'flex-end'
+        backgroundColor:'#28425B',
+        justifyContent:'flex-end',
         //task_2_image1
         // flexDirection:'row',
         // alignItems:'flex-end',

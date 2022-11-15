@@ -18,8 +18,8 @@ export default function App() {
     // <ContadorScreen/>
     // <View style={styles.container}>
         // {/* // <Saludo/> */}
-        // {/* // <PositionScreen/> */}
-        // {/* // <FlexScreen/> */}
+      //  <PositionScreen/> 
+      //  <FlexScreen/> 
         <SafeAreaView style={styles.fondo}>
                 <StatusBar 
                     backgroundColor="black"
